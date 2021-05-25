@@ -5,6 +5,10 @@ name = "pypi"
 
 [packages]
 pytest = "*"
+flake8 = "*"
+bandit = "*"
+safety = "*"
+flask = "*"
 
 [dev-packages]
 

@@ -1,4 +1,9 @@
-from .cicd_class.phonebook import phone_numbers
+from cicd_class.phonebook import phone_numbers
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__),
+                             os.pardir,
+                             "cicd_apprentince_class"))
 
 
 def test_phone_numbers():

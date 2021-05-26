@@ -9,6 +9,7 @@ flake8 = "*"
 bandit = "*"
 safety = "*"
 flask = "*"
+autopep8 = "*"
 
 [dev-packages]
 

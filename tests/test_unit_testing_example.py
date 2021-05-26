@@ -1,4 +1,4 @@
-from cicd_class.phonebook import phone_numbers
+from .cicd_class.phonebook import phone_numbers
 
 
 def test_phone_numbers():

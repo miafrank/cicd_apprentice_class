@@ -39,17 +39,6 @@ jobs:
       - name: Test with pytest
         run: |
           pipenv run pytest
-      - name: Security check - Bandit
-        uses: ./
-        with:
-          python_version: ${{ matrix.python-version }}
-          project_path: .
-          ignore_failure: true
-      - name: Security check report artifacts
-        uses: actions/upload-artifact@v1
-        with:
-          name: Security report
-          path: output/security_report.txt
       - name: Safetey check - safety
         run: 
           pipenv run safety check

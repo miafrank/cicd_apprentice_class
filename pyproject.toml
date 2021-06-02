@@ -2,12 +2,15 @@
 name = "cicd_apprentice_class"
 version = "0.1.0"
 description = "Create a pyproject.toml file for an existing project."
-authors = [
-    "Frank <mia.frank@madeintandem.com>"
-]
+
+[authors]
+"Mia Frank <mia.frank@madeintandem.com>"
+
 license = "MIT"
 readme = "README.md"
 python = "^3.9.5"
+
+[urls]
 homepage = "https://github.com/miafrank/cicd_apprentice_class"
 repository = "https://github.com/miafrank/cicd_apprentice_class"
 documentation = "https://github.com/miafrank/cicd_apprentice_class"

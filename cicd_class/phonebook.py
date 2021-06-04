@@ -1,2 +1,5 @@
 def phone_numbers(numbers):
-    return {f'Person: {k} Phone Number: {v}' for k, v in numbers.items()}
+    result = ""
+    for k, v in numbers.items():
+        result += f'Person: {k} Phone Number: {v}\n'     
+    return result
